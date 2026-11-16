@@ -40,4 +40,12 @@ Microsoft Azure blog, "Introducing Phi-3: Redefining what's possible with SLMs" 
 # Attentions
 Microsoft phi-3-mini is slow to answer. It is a model running locally and without any bigtech, so the speed si not like a real AI.
 Microsoft phi-3-mini, like any AI, makes mistakes. Please check the model's answers.
+The answers can be cut at the end, without beeing finished. This is because of the token limit.
 
+# Customisable
+You can customise some details such as the window size, the token limit, or the instructions.
+For the window size : modify at the line "root.geometry("600x600")".
+For the token limit : modify at the line "MAX_NEW_TOKENS = 130". Note : than more tokens you enable, than longer the answer can be but than longer the model takes for answering.
+For the instructions : modify at the line "SYSTEM_PROMPT = (
+    "You are a helpful assistant. Answer in the same language as the user, in a few sentences, then stop. Do not invent exercises or puzzles."
+)".
