@@ -2,7 +2,7 @@
 An AI assistant using the model Microsoft phi-3-mini
 
 This is an AI assistant coded with Python that uses the model Microsoft phi-3-mini.
-It makes a first download that is XXX minuts long. After the downlaod, you can use it and it won't need to download each time you use it.
+It makes a first download that is 40 to 50 minuts long. After the downlaod, you can use it and it won't need to download each time you use it.
 The Python script makes that everything needed is downloaded so that the AI is able to work offline.
 You will have to use the AI assistant on a computer because it uses tkinter for the window, which doesn't work on phones.
 
@@ -12,7 +12,7 @@ Then, install the dependencies "accelerate", "torch" and "transformers".
 After that, copy paste the script on your code interpreter and run the script.
 Then, some red messages might appear in your console. Ignore them. If you see something like "Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]", this means the script is downloading.
 A window might appear while the model is downloading. Ignore it because it won't be working at this moment.
-Wait approximately XXX minuts that the model downloads itself. You will see the "Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]" message progressing after a while (the progress isn't on live, but there is only a visible progress when a complete file has been downloaded).
+Wait approximately 40 to 50 minuts that the model downloads itself. You will see the "Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]" message progressing after a while (the progress isn't on live, but there is only a visible progress when a complete file has been downloaded).
 When the downloading is completed, you will see a message saying it in the console. You will also see "Model loaded" on the window.
 Now, the model has been downloaded and you can use the AI assistant on the window.
 
