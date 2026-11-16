@@ -22,7 +22,7 @@ The script is running locally so your data stays in majority private. This allow
 The script uses a downloaded model, in this case Microsoft phi-3-mini, which makes it mostly planet friendly, because it doen't need any data centers.
 Let's compare its performance with GPT-3.5's :
                                                                                                                                                                             
-| Benchmark	                                 | Phi-3-mini (3.8B)	| GPT-3.5 Turbo	|                                                                                         
+| Benchmark                                  | Phi-3-mini (3.8B)	| GPT-3.5 Turbo	|                                                                                         
 | MMLU (general knowledge, 5-shot)           |	 68.8	            | 71.4          |                                                                                         
 | MT-bench (conversational quality)          |	8.38	            | 8.35	        |                                                                                         
 | GSM-8K (math/reasoning, 8-shot CoT)        |  82.5	            | 78.1	        |                                                                                         
