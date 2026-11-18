@@ -23,14 +23,14 @@ The script uses a downloaded model, in this case Microsoft phi-3-mini, which mak
 Microsoft phi-3-mini handels multiple languages.
 Let's compare its performance with GPT-3.5's :
                                                                                                                                                                             
-| Benchmark                                 |  Phi-3-mini (3.8B)  |  GPT-3.5 Turbo  |                                                                                       
-| MMLU (general knowledge, 5-shot)          |      68.8	          |       71.4      |                                                                                       
-| MT-bench (conversational quality)         |      8.38           |       8.35      |                                                                                       
-| GSM-8K (math/reasoning, 8-shot CoT)       |      82.5           |       78.1      |                                                                                       
-| HellaSwag (commonsense, 5-shot)           |      76.7           |       78.8      |                                                                                       
-| ANLI (adversarial reasoning, 7-shot)      |      52.8           |       58.1      |                                                                                       
-| BigBench Hard (hard reasoning, 3-shot CoT)|      73.5           |       68.3      |                                                                                       
-| AGI Eval (5-shot)                         |     39.0            |       48.4      |                                                                                       
+ Benchmark------------------------------------Phi-3-mini-------------GPT-3.5                                                                                        
+ MMLU (general knowledge, 5-shot)----------------68.8------------------71.4                                                                                             
+ MT-bench (conversational quality)---------------8.38------------------8.35                                                                                             
+ GSM-8K (math/reasoning, 8-shot CoT)-------------82.5------------------78.1                                                                                             
+ HellaSwag (commonsense, 5-shot)-----------------76.7------------------78.8                                                                                             
+ ANLI (adversarial reasoning, 7-shot)------------52.8------------------58.1                                                                                             
+ BigBench Hard (hard reasoning, 3-shot CoT)------73.5------------------68.3                                                                                             
+ AGI Eval (5-shot)-------------------------------39.0------------------48.4                                                                                             
                                                                                                                                                                             
 Sources:                                                                                                                                                                    
 Phi-3 Technical Report (Abdin et al., Microsoft, April 2024), arxiv.org/abs/2404.14219 — the primary source. All benchmark numbers for both models come from its Figure/Table comparing the Phi-3 family against Mistral 7B, Gemma 7B, Llama-3 8B, Mixtral 8x7B and GPT-3.5-Turbo (version 1106), evaluated with the same pipeline. Full HTML version: arxiv.org/html/2404.14219v3
