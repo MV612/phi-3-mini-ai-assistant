@@ -20,6 +20,7 @@ Now, the model has been downloaded and you can use the AI assistant on the windo
 The script uses the model Microsoft phi-3-mini. This model is quite performent and is approximately at the same level than the model GPT-3.5 (the default model of ChatGPT until 2024).
 The script is running locally so your data stays in majority private. This allows also a offline use of the AI assistant.
 The script uses a downloaded model, in this case Microsoft phi-3-mini, which makes it mostly planet friendly, because it doesn't need any data centers.
+Microsoft phi-3-mini handels multiple languages.
 Let's compare its performance with GPT-3.5's :
                                                                                                                                                                             
 | Benchmark                                 |  Phi-3-mini (3.8B)  |  GPT-3.5 Turbo  |                                                                                       
@@ -38,14 +39,14 @@ Microsoft Azure blog, "Introducing Phi-3: Redefining what's possible with SLMs" 
 
 
 # Attentions
-Microsoft phi-3-mini is slow to answer. It is a model running locally and without any bigtech, so the speed is not like a real AI.
+Microsoft phi-3-mini is slow to answer (around 1 minute). It is a model running locally and without any bigtech, so the speed is not like a real AI.
 Microsoft phi-3-mini, like any AI, makes mistakes. Please check the model's answers.
 The answers can be cut at the end, without being finished. This is because of the token limit.
 
 # Customisable
 You can customise some details such as the window size, the token limit, or the instructions.
 For the window size : modify at the line "root.geometry("600x600")".
-For the token limit : modify at the line "MAX_NEW_TOKENS = 130". Note : than more tokens you enable, than longer the answer can be but than longer the model takes for answering.
+For the token limit : modify at the line "MAX_NEW_TOKENS = 170". Note : than more tokens you enable, than longer the answer can be but than longer the model takes for answering.
 For the instructions : modify at the line "SYSTEM_PROMPT = (
     "You are a helpful assistant. Answer in the same language as the user, in a few sentences, then stop. Do not invent exercises or puzzles."
 )".
